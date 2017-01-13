@@ -1,0 +1,441 @@
+#uninformed_search output:
+[Command: python3 -u /Users/apple/Desktop/hw2_part2.py]
+run time: 1 times
+run time: 2 times
+run time: 3 times
+run time: 4 times
+run time: 5 times
+run time: 6 times
+run time: 7 times
+run time: 8 times
+run time: 9 times
+run time: 10 times
+run time: 11 times
+run time: 12 times
+run time: 13 times
+run time: 14 times
+run time: 15 times
+run time: 16 times
+run time: 17 times
+run time: 18 times
+run time: 19 times
+run time: 20 times
+run time: 21 times
+run time: 22 times
+run time: 23 times
+run time: 24 times
+run time: 25 times
+run time: 26 times
+run time: 27 times
+1 2 3
+4 5 6
+7 8
+
+
+1 2 3
+4 5 6
+7   8
+
+
+1 2 3
+4   6
+7 5 8
+
+
+1 2 3
+  4 6
+7 5 8
+
+
+  2 3
+1 4 6
+7 5 8
+
+
+2   3
+1 4 6
+7 5 8
+
+
+2 4 3
+1   6
+7 5 8
+
+
+2 4 3
+  1 6
+7 5 8
+
+
+2 4 3
+7 1 6
+  5 8
+
+
+2 4 3
+7 1 6
+5   8
+
+
+2 4 3
+7   6
+5 1 8
+
+
+2 4 3
+  7 6
+5 1 8
+
+
+  4 3
+2 7 6
+5 1 8
+
+
+4   3
+2 7 6
+5 1 8
+
+
+4 7 3
+2   6
+5 1 8
+
+
+4 7 3
+2 6
+5 1 8
+
+
+4 7 3
+2 6 8
+5 1
+
+
+4 7 3
+2 6 8
+5   1
+
+
+4 7 3
+2 6 8
+  5 1
+
+
+4 7 3
+  6 8
+2 5 1
+
+
+  7 3
+4 6 8
+2 5 1
+
+
+7   3
+4 6 8
+2 5 1
+
+
+7 3
+4 6 8
+2 5 1
+
+
+7 3 8
+4 6
+2 5 1
+
+
+7 3 8
+4   6
+2 5 1
+
+
+7   8
+4 3 6
+2 5 1
+
+
+7 8
+4 3 6
+2 5 1
+
+
+7 8 6
+4 3
+2 5 1
+
+
+[Finished in 14.47s]
+
+#informed_search output:
+[Command: python3 -u /Users/apple/Desktop/hw2_part2.py]
+run time: 1 times
+run time: 2 times
+run time: 3 times
+run time: 4 times
+run time: 5 times
+run time: 6 times
+run time: 7 times
+run time: 8 times
+run time: 9 times
+run time: 10 times
+run time: 11 times
+run time: 12 times
+run time: 13 times
+run time: 14 times
+run time: 15 times
+run time: 16 times
+run time: 17 times
+run time: 18 times
+run time: 19 times
+run time: 20 times
+run time: 21 times
+run time: 22 times
+run time: 23 times
+run time: 24 times
+run time: 25 times
+run time: 26 times
+run time: 27 times
+run time: 28 times
+run time: 29 times
+run time: 30 times
+run time: 31 times
+run time: 32 times
+run time: 33 times
+run time: 34 times
+run time: 35 times
+run time: 36 times
+run time: 37 times
+run time: 38 times
+run time: 39 times
+run time: 40 times
+run time: 41 times
+run time: 42 times
+run time: 43 times
+run time: 44 times
+run time: 45 times
+run time: 46 times
+run time: 47 times
+run time: 48 times
+run time: 49 times
+run time: 50 times
+run time: 51 times
+run time: 52 times
+run time: 53 times
+run time: 54 times
+run time: 55 times
+run time: 56 times
+run time: 57 times
+run time: 58 times
+run time: 59 times
+run time: 60 times
+run time: 61 times
+run time: 62 times
+run time: 63 times
+run time: 64 times
+run time: 65 times
+run time: 66 times
+run time: 67 times
+run time: 68 times
+run time: 69 times
+run time: 70 times
+run time: 71 times
+run time: 72 times
+run time: 73 times
+run time: 74 times
+run time: 75 times
+run time: 76 times
+run time: 77 times
+1 2 3
+4 5 6
+7 8
+
+
+1 2 3
+4 5 6
+7   8
+
+
+1 2 3
+4 5 6
+  7 8
+
+
+1 2 3
+  5 6
+4 7 8
+
+
+  2 3
+1 5 6
+4 7 8
+
+
+2   3
+1 5 6
+4 7 8
+
+
+2 5 3
+1   6
+4 7 8
+
+
+2 5 3
+  1 6
+4 7 8
+
+
+2 5 3
+4 1 6
+  7 8
+
+
+2 5 3
+4 1 6
+7   8
+
+
+2 5 3
+4 1 6
+7 8
+
+
+2 5 3
+4 1
+7 8 6
+
+
+2 5 3
+4   1
+7 8 6
+
+
+2   3
+4 5 1
+7 8 6
+
+
+2 3
+4 5 1
+7 8 6
+
+
+2 3 1
+4 5
+7 8 6
+
+
+2 3 1
+4 5 6
+7 8
+
+
+2 3 1
+4 5 6
+7   8
+
+
+2 3 1
+4   6
+7 5 8
+
+
+2   1
+4 3 6
+7 5 8
+
+
+2 1
+4 3 6
+7 5 8
+
+
+2 1 6
+4 3
+7 5 8
+
+
+2 1 6
+4   3
+7 5 8
+
+
+2 1 6
+  4 3
+7 5 8
+
+
+2 1 6
+7 4 3
+  5 8
+
+
+2 1 6
+7 4 3
+5   8
+
+
+2 1 6
+7   3
+5 4 8
+
+
+2   6
+7 1 3
+5 4 8
+
+
+2 6
+7 1 3
+5 4 8
+
+
+2 6 3
+7 1
+5 4 8
+
+
+2 6 3
+7   1
+5 4 8
+
+
+2 6 3
+  7 1
+5 4 8
+
+
+  6 3
+2 7 1
+5 4 8
+
+
+6   3
+2 7 1
+5 4 8
+
+
+6 3
+2 7 1
+5 4 8
+
+
+6 3 1
+2 7
+5 4 8
+
+
+6 3 1
+2   7
+5 4 8
+
+
+6   1
+2 3 7
+5 4 8
+
+
+[Finished in 0.505s]
